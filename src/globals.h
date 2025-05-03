@@ -7,6 +7,7 @@
 constexpr uint8_t  servosPin[2] = {9, 10};
 constexpr uint8_t  TCS3200[5] = {4, 5, 6, 7, 8};
 constexpr uint8_t  S4 = 12;
+constexpr uint8_t  PIN_LED = 19; //CAMBIAR
 
 // Ángulos (calibrar segun la mecánica)
 constexpr uint8_t  posHome1 = 88;      // posición inicial servo1
