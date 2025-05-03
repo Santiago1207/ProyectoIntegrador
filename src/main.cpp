@@ -1,5 +1,12 @@
 #include <Arduino.h>
+#include <ESP32Servo.h>
+#include <globals.h>
 
+//Definir variable de contador
+int countColors[6] = {0,0,0,0,0,0};
+
+//Definir objeto tipo servo
+Servo servo1, servo2;
 
 // put function declarations here:
 int myFunction(int, int);
